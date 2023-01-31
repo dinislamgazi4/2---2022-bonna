@@ -4,7 +4,7 @@
 }
 
 main{
-    width: 900px;
+    width: 1000px;
     max-width: 80%;
     margin: 0 auto;
     background-color: rgb(208, 127, 20);
@@ -76,7 +76,7 @@ main{
 }
 .donate p{
     margin-top: 15px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .calo{  
     margin: 25px 10px;
@@ -161,4 +161,43 @@ main{
 }
 #food-color2{
     background-color: khaki;
+}
+.donation-item{
+    margin-top: 80px;
+    display: flex;
+}
+#donation{   
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.donation-item img{
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+.donation-item h1{
+    font-size: 35px;
+    margin-left: 30px;
+    width: 400px;
+}
+.donation-item p{
+    font-size: 15px;
+    margin-left: 30px;
+    width: 350px;
+}
+.donation-item a{
+    font-size: 15px;
+    margin-left: 30px;
+    background-image: linear-gradient(cornsilk, yellow);
+}
+.donate-plan h3{
+    color: khaki;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.donate-plan p{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: 600;
 }
