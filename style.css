@@ -57,6 +57,7 @@ main{
     border-radius: 10px;
     color: azure;
     font-weight: 900px;   
+    margin-left: -60px;
 }
 .container a:hover{
     color: black;
@@ -78,45 +79,49 @@ main{
     margin-top: 15px;
     font-weight: 600;
 }
-.calo{  
-    margin: 25px 10px;
-    text-align: center;
-    border: 1px solid gainsboro;
-    background-color: gainsboro;
+.taka-flex{
+    display: flex;
+    width: 950px;
+    height: 140px;
+    background-color: aqua;
+    margin-left: 25px;
     border-radius: 10px;
-    width: 1000px;
-    height: 120px;
-    max-width: 85%;
-    margin-left: 70px;
 }
-.taka{
-    width: 100px;
+.box-taka{
+    width: 150px;
     height: 80px;
-    border: 1px solid cornsilk;
+    border: 1px solid antiquewhite;
     border-radius: 10px;
-    background-color: cornsilk;
-    font-size: 20px;
-    font-weight: 900;
-    margin-top: 20px;  
-       
+    margin-left: 7px;
+    margin-top: 30px;
+    background-color: antiquewhite;
+
+}
+.box-taka h1{
+    margin-left: 27px;
+    margin-top: 16px;
+}
+.box-taka h1{  
+    margin-left: 15px;
+   
 }
 
-.taka:hover{
-    background-color: aqua;
+.box-taka:hover{
+    background-color: aquamarine;
     border: 1px solid black;
 }
 
-.next{
-    text-decoration: none;
+.next1{
     background-image: linear-gradient(aqua, rgb(255, 217, 146));
+    text-decoration: none;
     padding: 15px 20px;
     border-radius: 10px;
     color: black;
     font-weight: 700;   
     font-size: 18px; 
 }
-.next:hover{
-        background-image: linear-gradient(cornsilk, yellow);
+.next1:hover{
+        background-image: linear-gradient(yellow, red);
 }
 .donate-plan{
     text-align: center;
@@ -129,12 +134,14 @@ main{
     color: yellowgreen;
 }
 .food-item{
+    width: 900px;
     border: 1px solid khaki;
     border-radius: 20px;
     height: 350px;
     margin-top: 20px;
     display: flex;
     background-color: paleturquoise;
+    margin-left: 50px;
 }
 .food-box{
     width: 300px;
@@ -186,18 +193,69 @@ main{
     margin-left: 30px;
     width: 350px;
 }
-.donation-item a{
+.next2{
     font-size: 15px;
     margin-left: 30px;
     background-image: linear-gradient(cornsilk, yellow);
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;   
+    font-size: 18px; 
 }
+
 .donate-plan h3{
     color: khaki;
     font-size: 40px;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 .donate-plan p{
     margin-left: 10px;
     margin-top: 15px;
     font-weight: 600;
+}
+.email{
+    width: 700px;
+    height: 180px;
+    background-color: gold;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+footer{
+    width: 900px;
+    height: 250px;
+    margin-top: 50px;
+}
+.input{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(218, 208, 208);
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.input h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.input2{
+    width: 120px;
+    height: 48px;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 480px;
+    position: absolute;
+    margin-top: 61px;
+}
+.input2:hover{
+    background-color: rgb(32, 213, 59);
+}
+.email h2{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
 }
