@@ -128,4 +128,37 @@ main{
     font-size: 40px;
     color: yellowgreen;
 }
-
+.food-item{
+    border: 1px solid khaki;
+    border-radius: 20px;
+    height: 350px;
+    margin-top: 20px;
+    display: flex;
+    background-color: paleturquoise;
+}
+.food-box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 30px 10px;
+    background-color: palegreen;
+}
+.food-box img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.food-box h1{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.food-box p{
+    margin-left: 10px;
+}
+#food-color1{
+    background-color: pink;
+}
+#food-color2{
+    background-color: khaki;
+}
